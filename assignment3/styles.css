@@ -1,0 +1,65 @@
+.retention {
+	background-color: #4B0082;
+	color: #E6E6FA;
+	padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+	
+}
+p {
+	background-color: #F0E68C;
+	color: #444444;
+			
+}
+
+h1 {
+	background-color: #FFE4C4;
+	color: #2F4F4F;
+}
+
+a {
+	background-color: #FFEBCD;
+	color: #FF0000;
+}
+
+a:hover {
+	background-color: #FFEBCD;
+	color: #FFFF00;
+}
+
+a:visited {
+	background-color: #FFEBCD;
+	color: #00FF00;
+}
+
+.spanstyle {
+	background-color: #FAEBD7;
+	color: #696969;
+}
+
+#admission {
+	background-color: #DAA520;
+	color: #FFFFFF;
+}
+
+.coursename {
+	background-color: #FFFFF0;
+	color: #4B0082;
+}
+
+
+
+footer {
+
+}
+
+header {
+	
+}
+
+main {
+	
+}
+
+nav {
+	
+}
