@@ -1,0 +1,49 @@
+h1 {
+	color: #197bd2;
+	font-size:140px;
+	position: fixed;
+	left: 160px;
+	top: 100px;
+	font-family: Impact, sans-serif;
+	
+}
+
+.oClass {
+	color: #ffa500;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #197bd2;
+	background-image: url("Soul.png");
+	background-repeat: no-repeat;
+}
+
+.tagline {
+	color: #ffffff;
+	width: 575px;
+	text-align: right;
+	padding: 25px;
+	
+	
+}
+
+.credits {
+	width: 640px;
+	position: fixed;
+	top:860px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.smallfont {
+	font-size: 10px;
+}
+
+a {
+	
+}
+
+a:hover {
+	color: #ffa500;
+}
