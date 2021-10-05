@@ -1,0 +1,132 @@
+
+#wrapper {
+	margin: 1em auto;
+	padding: 0;
+	width: 960px;
+	background-color: #ffffff;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+	grid-column-gap: 0px;
+	
+	
+}
+
+body {
+	background-color: Gainsboro;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	grid-area: 1/1/span 1/span 12;
+	font-family: Helvetica, Arial, sans-sarif;
+	padding: 10px;
+	background-image: linear-gradient(red, orange);
+	border-style: solid;
+	border-color: red;
+	border-width: 3px;
+	
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
+nav {
+	grid-area: 2/1/span 1/span 12;
+	font-family: Helvetica, Arial, sans-sarif;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(red, orange);
+}
+nav li {
+	font-weight: bold;
+	border-right: 5px solid red;
+	width: 220px;
+	display:inline-block;
+	
+	background-image: linear-gradient(red, orange);
+	list-style-type: none;
+	padding: 10px 0px 10px 10px;
+	
+	
+}
+
+
+
+main {
+	grid-area: 3/1/span 10/span 12;
+	margin: 15px;
+	font-family: Georgia, sarif;
+	}
+
+main p {
+	margin: 10px;
+}
+
+.intro {
+	font-weight: bold;
+	text-align: justify;
+	margin: 15px 0px 15px 0px;
+	
+}
+
+main a {
+	color:red;
+	font-weight: bold;
+	text-decoration: none;
+	
+	
+}
+
+main a:hover {
+	color:blue;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+main img {
+	float: left;
+	margin: 0px 10px 15px 0px;
+	width:30%;
+	border-color: red;
+	border-style: solid;
+	border-width: 3px;
+}
+
+hr {
+	border: 1px solid red;
+	
+}
+
+h2 {
+	margin: 0px;
+	font-family: Helvetica, Arial, sans-sarif;
+}
+
+
+footer {
+	grid-area: 16/1/span 1/span 12;
+	padding: 10px;
+	background-color: red;
+	color: white;
+	
+	
+}
+
