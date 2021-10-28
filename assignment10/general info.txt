@@ -1,0 +1,2 @@
+Need Javascript for a scrolling subwindow with different images (low res versions of comic pages) that, when you click them, the site will change to the comic page.
+
