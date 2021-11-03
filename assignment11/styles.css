@@ -1,0 +1,193 @@
+
+#wrapper {
+	margin: 1em auto;
+	padding: 0;
+	width: 960px;
+	background-color: #ffffff;
+	border-style: groove;
+	border-color: black;
+	border-width: 3px;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 10px;
+	
+	}
+	
+body {
+	background-image: url("./assets/gradbg.png");
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #ffdddd;
+	padding: 10px;
+}
+
+.imageright {
+	float: right;
+	padding: 10px;
+	
+}
+
+.imageleft {
+	float: left;
+	padding: 10px;
+	
+}
+p {
+	font-family: 'Oxygen', sans-serif;
+}
+
+header {
+	grid-area: 2/1/span 1/span 12;
+	grid-column: span 12;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	
+	}
+
+ul {
+	list-style-type: none;
+}
+
+h1, h2, h3, h4, h5 {
+	padding: 0px 0px 5px 0px;
+	font-family: 'Ceviche One', cursive;
+	color: White;
+}
+
+h1, h2 {
+	grid-column: span 12;
+	background-color: pink;
+	text-align: center;
+	text-shadow: 2px 2px 2px #111;
+	letter-spacing: 2px;
+}
+
+nav {
+	grid-area: 1/1/span 1/span 12;
+	font-family: 'Ceviche One', cursive;
+	margin: 0;
+	padding: 0;
+	
+}
+
+nav ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: violet;
+	font-weight: bold;
+	font-size: 32px;
+	font-family: 'Ceviche One', cursive;
+	letter-spacing: 2px;
+}
+
+nav li {
+	font-weight: bold;
+	border-right: 5px solid violet;
+	/* width: 180px; */
+	display:inline-block;
+	background-color: violet;
+	list-style-type: none;
+	padding: 10px 20px 10px 10px;	
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	transition: color .5s;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+main {
+	/*grid-area: 3/1/span 1/span 12;*/
+	grid-column: span 12;
+	/*border-style: solid;
+	border-color: red;
+	border-width: 3px;*/
+	/*Inner Grid*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	grid-column-gap: 20px;
+}
+
+section {
+	grid-column: span 1;
+	/*	border-style: solid;
+	border-color: black;
+	border-width: 3px;*/
+}
+
+section p {
+	padding: 0px 10px 0px 10px;
+	margin: 10px;
+}
+
+footer {
+	grid-column: span 12;
+	background-color: pink;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	grid-column-gap: 20px;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 32px;
+	font-family: 'Ceviche One', cursive;
+	color: white;
+	text-align: left;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+	text-shadow: 2px 2px 2px #111;
+}
+
+.logo a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Ceviche One', cursive;
+	transition: color 1.0s;
+	letter-spacing: 2px;
+}
+
+.logo a:hover {
+	text-decoration: none;
+	color: OldLace;
+}
+
+.contactInfo {
+	text-align: right;
+	color: white;
+	font-size: 14px;
+	font-family: 'Oxygen', sans-serif;
+	list-style-type: none;
+	padding: 10px 10px 0px 10px;
+}
+
+.contactInfo a {
+	text-decoration: none;
+	color: white;
+}
+
+.contactInfo a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+
+.projects {
+	grid-column: span 12;
+}
+
+.projects img {
+	height: 300px;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 5px 10px 5px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px #666;
+}
