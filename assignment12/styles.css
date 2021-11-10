@@ -41,7 +41,7 @@
 	
 body {
 	background-image: url("./assets/gradbg.png");
-	font-family: Helvetica, Arial, sans-serif;
+
 	background-color: #ffdddd;
 	padding: 10px;
 }
@@ -156,12 +156,12 @@ footer {
 }
 
 .logo {
-	font-weight: bold;
+	
 	font-size: 32px;
 	color: white;
 	text-align: left;
-	margin: 0px;
-	padding: 0px 0px 0px 10px;
+	margin: 30px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
 	font-family: 'Ceviche One', cursive;
 
 }
@@ -179,10 +179,9 @@ footer {
 .contactInfo {
 	text-align: right;
 	color: white;
-	font-size: 14px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	list-style-type: none;
-	padding: 10px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
 }
 
 .contactInfo a {
